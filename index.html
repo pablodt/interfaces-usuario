@@ -10,41 +10,42 @@
     <h1>Hola mundo</h1>
     
     <form action="">
-        <p>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" title='Introduce your name' autocomplete="name" placeholder="Name">
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" name="username" id="username" title='Introduce your name' autocomplete="name" placeholder="Name"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="surname">Surname:</label></td>
+                <td><input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="surname" placeholder="Surname"></td>
+            </tr>
 
-            <br>
+            <tr>
+                <td><label for="date">Date of Birth:</label></td>
+                <td><input type="date" name="date" id="date" title='Introduce your date of birth' autocomplete="bday"></td>
+            </tr>
 
-            <label for="surname">Surname:</label>
-            <input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="surname" placeholder="Surname">
-
-            <br>
-
-            <label for="date">Date of Birth:</label>
-            <input type="date" name="date" id="date" title='Introduce your date of birth' autocomplete="bday">
-
-            <br>
-
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" title='Introduce your email' autocomplete="email@uma.es" required>
-
-            <br>
-
-            <label for="phone">Phone number:</label>
-            <input type="number" name="phone" id="phone" title='Introduce your phone' autocomplete='123456789'>
-
-            <br>
-
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" title='Introduce your password' autocomplete="12345" required>
-
-            <br>
-
-            <label for="color">Color:</label>
-            <input type="color" name="color" id="color" title='Introduce your favourite color' autocomplete="red">
-
-        </p>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email" title='Introduce your email' autocomplete="email@uma.es" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="phone">Phone number:</label></td>
+                <td><input type="number" name="phone" id="phone" title='Introduce your phone' autocomplete='123456789'></td>
+            </tr>
+           
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password" title='Introduce your password' autocomplete="12345" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="color">Color:</label></td>
+                <td><input type="color" name="color" id="color" title='Introduce your favourite color' autocomplete="red"></td>
+            </tr>
+        </table>
 
         <input type="submit" value="Submit">
     </form>
