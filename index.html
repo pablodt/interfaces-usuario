@@ -18,7 +18,7 @@
             
             <tr>
                 <td><label for="surname">Surname:</label></td>
-                <td><input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="surname" placeholder="Surname"></td>
+                <td><input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="family-name" placeholder="Surname"></td>
             </tr>
 
             <tr>
@@ -28,22 +28,22 @@
 
             <tr>
                 <td><label for="email">Email:</label></td>
-                <td><input type="email" name="email" id="email" title='Introduce your email' autocomplete="email@uma.es" required></td>
+                <td><input type="email" name="email" id="email" title='Introduce your email' autocomplete="email" required placeholder="email@uma.es"></td>
             </tr>
             
             <tr>
                 <td><label for="phone">Phone number:</label></td>
-                <td><input type="number" name="phone" id="phone" title='Introduce your phone' autocomplete='123456789'></td>
+                <td><input type="number" name="phone" id="phone" title='Introduce your phone' autocomplete="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
             </tr>
            
             <tr>
                 <td><label for="password">Password</label></td>
-                <td><input type="password" name="password" id="password" title='Introduce your password' autocomplete="12345" required></td>
+                <td><input type="password" name="password" id="password" title='Introduce your password' autocomplete="current-password" required></td>
             </tr>
             
             <tr>
                 <td><label for="color">Color:</label></td>
-                <td><input type="color" name="color" id="color" title='Introduce your favourite color' autocomplete="red"></td>
+                <td><input type="color" name="color" id="color" title='Introduce your favourite color'></td>
             </tr>
         </table>
 
