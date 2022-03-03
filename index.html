@@ -12,7 +12,38 @@
     <form action="">
         <p>
             <label for="username">Username:</label>
-            <input type="text" name="username" id="username" title='Introduce your name' autocomplete="name">
+            <input type="text" name="username" id="username" title='Introduce your name' autocomplete="name" placeholder="Name">
+
+            <br>
+
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="surname" placeholder="Surname">
+
+            <br>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date" title='Introduce your date of birth' autocomplete="bday">
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" title='Introduce your email' autocomplete="email@uma.es" required>
+
+            <br>
+
+            <label for="phone">Phone number:</label>
+            <input type="number" name="phone" id="phone" title='Introduce your phone' autocomplete='123456789'>
+
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" title='Introduce your password' autocomplete="12345" required>
+
+            <br>
+
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color" title='Introduce your favourite color' autocomplete="red">
+
         </p>
 
         <input type="submit" value="Submit">
